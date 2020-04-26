@@ -1,4 +1,4 @@
-﻿package org.bme.mit.iir;
+package org.bme.mit.iir;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

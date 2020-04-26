@@ -1,4 +1,4 @@
-﻿package org.bme.mit.iir;
+package org.bme.mit.iir;
 
 import java.io.File;
 import java.util.Collections;
@@ -25,11 +25,11 @@ import org.semanticweb.owlapi.vocab.OWLRDFVocabulary;
 public class ReasoningExample {
 
 	public static final String PCSHOP_ONTOLOGY_FNAME = 
-		"c:/temp/pc_shop/pc_shop.owl";
+		"C:\\Users\\bendi\\Documents\\BME Mérnökinformatikus Alapképzés\\6. félév\\IET\\HF1\\semantic_web\\pc_shop.owl.xml";
 	public static final String PCSHOP_BASE_URI = 
-		"http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#";
+		"http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#";
     public static final IRI ANNOTATION_TYPE_IRI =
-            OWLRDFVocabulary.RDFS_LABEL.getIRI();
+            OWLRDFVocabulary.RDFS_COMMENT.getIRI();
 
     OWLOntologyManager manager;
     OWLOntology ontology;
@@ -156,8 +156,8 @@ public class ReasoningExample {
     	
         // Végezzük keresőszó-kiegészítést az "alkatrész" kulcsszóra 
     	// az osztály leszármazottai szerint!
-    	final String term = "alkatrész";
-    	Set<OWLClass> descendants = p.getSubClasses(term, false);
+    	final String term = "fényképezőgép";
+    	Set<OWLClass> descendants = p.getSubClasses(term, true);
         System.out.println("Query expansion a leszármazottak szerint: ");
     	for (OWLClass cls : descendants) {
     		// Az eredmények közül a beépített OWL entitásokat ki kell szűrnünk.

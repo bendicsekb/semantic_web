@@ -8,8 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:pc_shop="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#"
-     xmlns:pc_shop1="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#">
-    <owl:Ontology rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl"/>
+    <owl:Ontology rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl"/>
     
 
 
@@ -140,28 +139,28 @@
     
 
 
-    <!-- http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#felbontás -->
+    <!-- http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#felbontás -->
 
-    <owl:DatatypeProperty rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#felbontás">
-        <rdfs:domain rdf:resource="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép"/>
+    <owl:DatatypeProperty rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#felbontás">
+        <rdfs:domain rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#fényképezőgép"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#márka -->
+    <!-- http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#márka -->
 
-    <owl:DatatypeProperty rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#márka">
-        <rdfs:domain rdf:resource="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép"/>
+    <owl:DatatypeProperty rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#márka">
+        <rdfs:domain rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#fényképezőgép"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#típus -->
+    <!-- http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#típus -->
 
-    <owl:DatatypeProperty rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#típus">
-        <rdfs:domain rdf:resource="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép"/>
+    <owl:DatatypeProperty rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#típus">
+        <rdfs:domain rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#fényképezőgép"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -226,9 +225,9 @@
     
 
 
-    <!-- http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép -->
+    <!-- http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#fényképezőgép -->
 
-    <owl:Class rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép">
+    <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#fényképezőgép">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru"/>
         <rdfs:comment>fényképező</rdfs:comment>
         <rdfs:comment>fényképezőgép</rdfs:comment>
@@ -238,9 +237,9 @@
     
 
 
-    <!-- http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#gyártó -->
+    <!-- http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#gyártó -->
 
-    <owl:Class rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#gyártó">
+    <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#gyártó">
         <rdfs:comment>AMD</rdfs:comment>
         <rdfs:comment>Apple</rdfs:comment>
         <rdfs:comment>Intel</rdfs:comment>
@@ -473,10 +472,10 @@
     
 
 
-    <!-- http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#Sony_DSC-S730 -->
+    <!-- http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#Sony_DSC-S730 -->
 
-    <owl:NamedIndividual rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#Sony_DSC-S730">
-        <rdf:type rdf:resource="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép"/>
+    <owl:NamedIndividual rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#Sony_DSC-S730">
+        <rdf:type rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#fényképezőgép"/>
         <pc_shop1:felbontás>7,2 megapixeles</pc_shop1:felbontás>
         <pc_shop1:márka>Sony</pc_shop1:márka>
         <pc_shop1:típus>DSC-S730</pc_shop1:típus>
@@ -522,7 +521,7 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép"/>
+            <rdf:Description rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#fényképezőgép"/>
             <rdf:Description rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#PC"/>
             <rdf:Description rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#alkatrész"/>
             <rdf:Description rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#beviteli_eszköz"/>

@@ -1,4 +1,4 @@
-﻿package org.bme.mit.iir;
+package org.bme.mit.iir;
 
 import java.io.IOException;
 import java.util.*;
