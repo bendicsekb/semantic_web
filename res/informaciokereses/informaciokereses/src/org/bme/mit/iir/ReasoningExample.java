@@ -27,7 +27,7 @@ public class ReasoningExample {
 	public static final String PCSHOP_ONTOLOGY_FNAME = 
 		"C:\\Users\\bendi\\Documents\\BME Mérnökinformatikus Alapképzés\\6. félév\\IET\\HF1\\semantic_web\\pc_shop.owl.xml";
 	public static final String PCSHOP_BASE_URI = 
-		"http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#";
+		"http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#";
     public static final IRI ANNOTATION_TYPE_IRI =
             OWLRDFVocabulary.RDFS_COMMENT.getIRI();
 
@@ -56,7 +56,7 @@ public class ReasoningExample {
 					+ e.getMessage());
 			System.exit(-1);
 		}
-        System.out.println("Ontológia betöltve: " + 
+        System.err.println("Ontológia betöltve: " +
                 manager.getOntologyDocumentIRI(ontology));
 
         // Létrehozzuk a következtetőgép egy példányát. Mi most a HermiT-et 
@@ -107,7 +107,7 @@ public class ReasoningExample {
         // ontológiában, az nem vezet hibához az OWL nyílt világ feltételezése 
         // miatt.)
         if (!ontology.containsClassInSignature(clsIRI)) {
-        	System.out.println("Nincs ilyen osztály az ontológiában: \"" + 
+        	System.err.println("Nincs ilyen osztály az ontológiában: \"" +
         			className + "\"");
         	return Collections.emptySet();
         }
@@ -123,9 +123,9 @@ public class ReasoningExample {
 		}
 		// Kiírjuk az eredményt, az ekvivalens osztályokat 
 		// egyenlőségjellel elválasztva.
-        System.out.println("Az \"" + className + "\" osztály leszármazottai:");
+        System.err.println("Az \"" + className + "\" osztály leszármazottai:");
         for (Node<OWLClass> subCls : subClss.getNodes()) {
-        	System.out.println("  - " + Util.join(subCls.getEntities(), " = "));
+        	System.err.println("  - " + Util.join(subCls.getEntities(), " = "));
         }
         return subClss.getFlattened();
     }
@@ -156,9 +156,9 @@ public class ReasoningExample {
     	
         // Végezzük keresőszó-kiegészítést az "alkatrész" kulcsszóra 
     	// az osztály leszármazottai szerint!
-    	final String term = "fényképezőgép";
+    	final String term = args[0];
+    	StringBuilder query_expansion = new StringBuilder();
     	Set<OWLClass> descendants = p.getSubClasses(term, true);
-        System.out.println("Query expansion a leszármazottak szerint: ");
     	for (OWLClass cls : descendants) {
     		// Az eredmények közül a beépített OWL entitásokat ki kell szűrnünk.
     		// Ezek itt az osztályhierarchia tetejét és alját jelölő
@@ -166,10 +166,9 @@ public class ReasoningExample {
     		if (!cls.isBuiltIn()) {
                 // Kérdezzük le az osztály címkéit (annotation rdfs:label).
                 Set<String> labels = p.getClassAnnotations(cls);
-    			System.out.println("\t- "
-    					+ term + " -> " + cls.getIRI().getFragment()
-                        + " [" + Util.join(labels, ", ") + "]");
+                query_expansion.append(cls.getIRI().getFragment() + ',' + Util.join(labels, ",") + "\n");
             }
     	}
+        System.out.println(query_expansion);
     }
 }

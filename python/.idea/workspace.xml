@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ddb8d90-7d82-47a8-916a-0c44ac62f1ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../res/query/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/out/production/query/Query_Expander.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/out/production/query/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/query.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/src/Query_Expander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res/query/src/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../~WRL0005.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bendicsek_Marton_Bendeguz_IET_HF1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Bendicsek_Marton_Bendeguz_IET_HF1.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pc_shop.owl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pc_shop.owl.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ontology_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/ontology_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/ReasoningExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/ReasoningExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/informaciokereses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/informaciokereses.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/ReasoningExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/ReasoningExample.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +94,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_search.py" />
-      <option name="PARAMETERS" value="PC" />
+      <option name="PARAMETERS" value="Sony utolsó napjaira" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ontology_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ontology_search.py" />
+      <option name="PARAMETERS" value="processzor memória" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -89,7 +127,13 @@
     <list>
       <item itemvalue="Python.create_index" />
       <item itemvalue="Python.my_search" />
+      <item itemvalue="Python.ontology_search" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ontology_search" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,7 +147,7 @@
       <updated>1587312637529</updated>
       <workItem from="1587312642607" duration="2131000" />
       <workItem from="1587894387421" duration="11696000" />
-      <workItem from="1587911693785" duration="2096000" />
+      <workItem from="1587911693785" duration="6937000" />
     </task>
     <servers />
   </component>
@@ -121,9 +165,21 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$create_index.coverage" NAME="create_index Coverage Results" MODIFIED="1587901532713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$simple_search.coverage" NAME="my_search Coverage Results" MODIFIED="1587905509448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$my_search.coverage" NAME="my_search Coverage Results" MODIFIED="1587920574176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$ontology_search.coverage" NAME="ontology_search Coverage Results" MODIFIED="1587927008487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$my_search.coverage" NAME="my_search Coverage Results" MODIFIED="1587927168804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
