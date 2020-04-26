@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ddb8d90-7d82-47a8-916a-0c44ac62f1ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bendicsek_Marton_Bendeguz_IET_HF1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Bendicsek_Marton_Bendeguz_IET_HF1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pc_shop.owl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pc_shop.owl.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/ReasoningExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/ReasoningExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/TermRecognizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/TermRecognizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/bin/org/bme/mit/iir/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/ReasoningExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/ReasoningExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/TermRecognizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/TermRecognizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../res/informaciokereses/informaciokereses/src/org/bme/mit/iir/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_search.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +78,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_search.py" />
-      <option name="PARAMETERS" value="Sony" />
+      <option name="PARAMETERS" value="PC" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -108,7 +103,7 @@
       <updated>1587312637529</updated>
       <workItem from="1587312642607" duration="2131000" />
       <workItem from="1587894387421" duration="11696000" />
-      <workItem from="1587911693785" duration="1148000" />
+      <workItem from="1587911693785" duration="2096000" />
     </task>
     <servers />
   </component>
@@ -129,6 +124,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$create_index.coverage" NAME="create_index Coverage Results" MODIFIED="1587901532713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$simple_search.coverage" NAME="my_search Coverage Results" MODIFIED="1587905509448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$my_search.coverage" NAME="my_search Coverage Results" MODIFIED="1587917984101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$my_search.coverage" NAME="my_search Coverage Results" MODIFIED="1587920574176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

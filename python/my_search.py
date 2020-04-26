@@ -11,7 +11,9 @@ def search_results(words, index):
         words = [words]
 
     for word in words:
-        actual_word = index_words[word].items()
+        if word not in index_words:
+            return "Nem található szó"
+
         for document, occurence in index_words[word].items():
             if document in documents:
                 documents[document] = documents[document] + occurence
