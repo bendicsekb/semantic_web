@@ -230,12 +230,26 @@
 
     <owl:Class rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru"/>
-        <rdfs:comment>Sony</rdfs:comment>
         <rdfs:comment>fényképező</rdfs:comment>
         <rdfs:comment>fényképezőgép</rdfs:comment>
         <rdfs:comment>kompakt</rdfs:comment>
         <rdfs:comment>készülék</rdfs:comment>
-        <rdfs:comment>megapixeles</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#gyártó -->
+
+    <owl:Class rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#gyártó">
+        <rdfs:comment>AMD</rdfs:comment>
+        <rdfs:comment>Apple</rdfs:comment>
+        <rdfs:comment>Intel</rdfs:comment>
+        <rdfs:comment>LG</rdfs:comment>
+        <rdfs:comment>SAMSUNG</rdfs:comment>
+        <rdfs:comment>Sony</rdfs:comment>
+        <rdfs:comment>Toshiba</rdfs:comment>
+        <rdfs:comment>gyártó</rdfs:comment>
+        <rdfs:comment>gyártók</rdfs:comment>
     </owl:Class>
     
 
