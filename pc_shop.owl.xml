@@ -230,10 +230,12 @@
 
     <owl:Class rdf:about="http://home.mit.bme.hu/~fandrew/iir/pc_shop.owl#fényképezőgép">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru"/>
-        <rdfs:label>Sony</rdfs:label>
-        <rdfs:label>kompakt</rdfs:label>
-        <rdfs:label>készülék</rdfs:label>
-        <rdfs:label>megapixeles</rdfs:label>
+        <rdfs:comment>Sony</rdfs:comment>
+        <rdfs:comment>fényképező</rdfs:comment>
+        <rdfs:comment>fényképezőgép</rdfs:comment>
+        <rdfs:comment>kompakt</rdfs:comment>
+        <rdfs:comment>készülék</rdfs:comment>
+        <rdfs:comment>megapixeles</rdfs:comment>
     </owl:Class>
     
 
@@ -258,6 +260,7 @@
 
     <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#PC">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru"/>
+        <rdfs:comment>Számítógép</rdfs:comment>
     </owl:Class>
     
 
@@ -266,8 +269,9 @@
 
     <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#alaplap">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#alkatrész"/>
-        <rdfs:label>Asus</rdfs:label>
-        <rdfs:label>Gigabyte</rdfs:label>
+        <rdfs:comment>Asus</rdfs:comment>
+        <rdfs:comment>Gigabyte</rdfs:comment>
+        <rdfs:comment>MSI</rdfs:comment>
     </owl:Class>
     
 
@@ -276,6 +280,10 @@
 
     <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#alkatrész">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru"/>
+        <rdfs:comment>alkatrész</rdfs:comment>
+        <rdfs:comment>kellék</rdfs:comment>
+        <rdfs:comment>kiegészítő</rdfs:comment>
+        <rdfs:comment>tartozék</rdfs:comment>
     </owl:Class>
     
 
@@ -292,6 +300,8 @@
 
     <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#billentyűzet">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#beviteli_eszköz"/>
+        <rdfs:comment>billentyűzet</rdfs:comment>
+        <rdfs:comment>klaviatúra</rdfs:comment>
     </owl:Class>
     
 
@@ -300,6 +310,7 @@
 
     <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#egér">
         <rdfs:subClassOf rdf:resource="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#beviteli_eszköz"/>
+        <rdfs:comment>vezetéknélküli</rdfs:comment>
     </owl:Class>
     
 
@@ -356,7 +367,8 @@
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Hynix</rdfs:label>
+        <rdfs:comment>Hynix</rdfs:comment>
+        <rdfs:comment>Samsung</rdfs:comment>
     </owl:Class>
     
 
@@ -379,8 +391,8 @@
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>AMD</rdfs:label>
-        <rdfs:label>Intel</rdfs:label>
+        <rdfs:comment>AMD</rdfs:comment>
+        <rdfs:comment>Intel</rdfs:comment>
     </owl:Class>
     
 
@@ -421,7 +433,12 @@
 
     <!-- http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru -->
 
-    <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru"/>
+    <owl:Class rdf:about="http://mit.bme.hu/ontologia/iir_labor/pc_shop.owl#áru">
+        <rdfs:comment>cikk</rdfs:comment>
+        <rdfs:comment>gyártmány</rdfs:comment>
+        <rdfs:comment>termék</rdfs:comment>
+        <rdfs:comment>áru</rdfs:comment>
+    </owl:Class>
     
 
 
